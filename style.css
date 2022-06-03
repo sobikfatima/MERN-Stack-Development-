@@ -4,6 +4,9 @@
     content: "";
     display: table;
     clear: both;
+    width: 1000px;
+    height: fit-content;
+    border: 2px solid black;
 }
 .column-1 {
     float: left;
