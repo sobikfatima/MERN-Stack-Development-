@@ -1,0 +1,42 @@
+.row:after {
+    background-image: url(../HTML/1.jpeg);
+    image-resolution: 90%;
+    content: "";
+    display: table;
+    clear: both;
+}
+.column-1 {
+    float: left;
+    width: 20%;
+
+}
+.column {
+    float: right;
+    width: 70%
+}
+.column-3 {
+    width: 55%;
+    float: left;
+    display: block;
+    margin: 29px 10px 0 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-style: oblique;
+}
+.4 {
+    width: 40%
+    float: right;
+}
+img {
+    width: 160px;
+    height: 160px;
+    display: circle;
+}
+.obj {
+    width: 950px;
+    height:fit-content
+    display: block;
+    background-color: rgb(3, 104, 163);
+    color: white;
+    float:center;
+}
